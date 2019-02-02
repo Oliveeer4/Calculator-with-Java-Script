@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CALCULADORA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="calc.css" />
+    <script src="calc.js"></script>
+</head>
+<body bgcolor= '#000000'>
+
+
+        <center>
+            <h2>CALCULADORA EM JS</h2>
+            <form name="calc">
+            <div>
+                <input type="text" id = 'telinha' name='telinha' class='visor'/> <BR/>
+            </div>
+            
+                <input type='button' value='7' onclick="botao( value );"/>
+                <input type='button' value='8' onclick="botao( value );"/>
+                <input type='button' value='9' onclick="botao( value );"/>
+                <input type='button' value='/' onclick="botao( value );"/>
+            <BR/>
+            
+            <input type='button' value='4' onclick="botao( value );"/>
+            <input type='button' value='5' onclick="botao( value );"/>
+            <input type='button' value='6' onclick="botao( value );"/>
+            <input type='button' value='*' onclick="botao( value );"/>
+            <BR/>
+                        
+            <input type='button' value='1' onclick="botao( value );"/>
+            <input type='button' value='2' onclick="botao( value );"/>
+            <input type='button' value='3' onclick="botao( value );"/>
+            <input type='button' value='-' onclick="botao( value );"/>
+            <BR/>
+                        
+            <input type='button' value='0' onclick="botao( value );"/>
+            <input type='button' value='=' onclick="calcular();"/>
+            <input type='button' value='C' onclick="reset();"/>
+            <input type='button' value='+' onclick="botao( value );"/>
+            <BR/>
+        </form>
+
+        
+    </center>
+
+    
+</body>
+</html>
